@@ -30,7 +30,7 @@ export default function Dashboard({ completedActions, journalEntries }) {
 
       {/* ── Mobile Header ── */}
       <div className="text-center pt-3 md:hidden">
-        <p className="text-[0.6rem] uppercase tracking-[0.3em] text-primary font-semibold mb-3">Your Aussie Uncle</p>
+        <img src="/yau-logo.png" alt="Your Aussie Uncle" className="w-14 h-14 mx-auto mb-3 rounded-xl" />
         <h1 className="font-display text-[1.75rem] text-text leading-tight">
           Workplace<br />
           <span className="font-display-italic gradient-text text-[1.85rem]">Action Planner</span>
@@ -40,9 +40,12 @@ export default function Dashboard({ completedActions, journalEntries }) {
 
       {/* ── Desktop Header ── */}
       <div className="hidden md:flex items-end justify-between">
-        <div>
-          <h1 className="font-display text-[2.25rem] text-text leading-none">Dashboard</h1>
-          <p className="text-text-secondary text-[0.9rem] mt-2">Your progress at a glance</p>
+        <div className="flex items-center gap-4">
+          <img src="/yau-logo.png" alt="Your Aussie Uncle" className="w-12 h-12 rounded-xl" />
+          <div>
+            <h1 className="font-display text-[2.25rem] text-text leading-none">Dashboard</h1>
+            <p className="text-text-secondary text-[0.9rem] mt-2">Your progress at a glance</p>
+          </div>
         </div>
         <p className="font-display-italic text-text-secondary text-[0.9rem] max-w-xs text-right leading-snug">{msg}</p>
       </div>
@@ -56,7 +59,7 @@ export default function Dashboard({ completedActions, journalEntries }) {
           <div className="flex items-end justify-between mb-6 md:mb-8">
             <div>
               <p className="text-text-secondary text-[0.7rem] font-semibold uppercase tracking-[0.15em] mb-2">Overall Progress</p>
-              <p className="font-display text-[3.5rem] md:text-[5rem] gradient-text leading-none">{pct}%</p>
+              <p className="font-display gradient-text leading-none"><span className="text-[3.5rem] md:text-[5rem]">{pct}</span><span className="text-[1.75rem] md:text-[2.5rem]">%</span></p>
             </div>
             <Sparkles size={36} className="text-primary/30 mb-2" strokeWidth={1.2} />
           </div>
@@ -122,8 +125,8 @@ export default function Dashboard({ completedActions, journalEntries }) {
                     <p className="text-[0.75rem] text-text-secondary">{w.done} of {w.total} actions</p>
                   </div>
                 </div>
-                <span className={`font-display text-[1.25rem] ${w.pct === 100 ? 'text-success' : w.pct > 0 ? 'text-primary' : 'text-text-tertiary'}`}>
-                  {w.pct}%
+                <span className={`font-display ${w.pct === 100 ? 'text-success' : w.pct > 0 ? 'text-primary' : 'text-text-tertiary'}`}>
+                  <span className="text-[1.25rem]">{w.pct}</span><span className="text-[0.75rem]">%</span>
                 </span>
               </div>
               <div className="progress-track">
