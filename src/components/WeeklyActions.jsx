@@ -25,7 +25,7 @@ export default function WeeklyActions({ completedActions, onToggleAction }) {
 
       {/* Header */}
       <div className="pt-2 md:pt-0">
-        <p className="text-[0.65rem] uppercase tracking-[0.25em] text-cyan font-semibold mb-2">Week {activeWeek} of 4</p>
+        <p className="text-[0.65rem] uppercase tracking-[0.25em] text-cyan font-semibold mb-2">Week {activeWeek} of {weeklyActions.length}</p>
         <h1 className="font-display text-[1.5rem] md:text-[2rem] text-text">{week.title}</h1>
         <p className="text-text-secondary text-[0.85rem] mt-1.5 font-display-italic">{week.subtitle}</p>
       </div>

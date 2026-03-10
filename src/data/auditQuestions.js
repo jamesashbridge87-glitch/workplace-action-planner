@@ -99,29 +99,29 @@ export function getRecommendations(scores) {
 function getAdvice(categoryId, level) {
   const advice = {
     "small-talk": {
-      low: "Small talk is your biggest growth area. Start with Week 1 actions. Even 'morning!' counts. You don't need perfect conversations, just small connections.",
-      mid: "You're getting there with small talk. Push yourself to initiate one conversation per day. The weekend question is your secret weapon.",
-      high: "You're a natural! Keep using small talk to deepen relationships. Try connecting with people outside your immediate team."
+      low: "Small talk is your biggest growth area. Module 1 teaches the basics: start with 'How's it going?' and use the Small Talk Formula from Module 2 (Ask, Listen, Share briefly, Move on). Even 'morning!' counts.",
+      mid: "You're getting there. Practice the Small Talk Formula daily: Ask, Listen, Share, Move on. Use the Monday opener 'How was your weekend?' from Module 2 to build consistency.",
+      high: "You're a natural! Keep using small talk to deepen relationships. Try connecting with people outside your immediate team, like Module 3 suggests."
     },
     "humour": {
-      low: "Aussie humour takes time to decode. Don't pressure yourself. Start by observing when others joke and what gets laughs. Self-deprecating humour is your safest starting point.",
-      mid: "You're picking up the vibe. Try one light comment per day. Remember, Australians respect people who don't take themselves too seriously.",
-      high: "Your sense of humour is clicking. You're reading the room well. This is a huge sign of cultural confidence."
+      low: "Aussie humour takes time to decode. Module 5 breaks it down: 'taking the piss' means friendly teasing, and sarcasm like 'Living the dream' means the opposite. Start by observing what gets laughs.",
+      mid: "You're picking up the vibe. Module 5 teaches that self-deprecating humour is your safest bet. Try 'I definitely need another coffee' and watch the reaction.",
+      high: "Your sense of humour is clicking. You're reading the room well. This is a huge sign of cultural confidence, as Module 5 explains."
     },
     "meetings": {
-      low: "Meetings can feel intimidating, but your ideas matter. Start by making one comment per meeting. Even 'I agree with that' shows you're engaged.",
-      mid: "You're contributing in meetings. Next step: volunteer to present something, even a small update. Casual language is fine here.",
-      high: "You're confident in meetings. Great work. This is where career growth happens in Australian workplaces."
+      low: "Meetings can feel intimidating, but Module 2 gives you the phrases: 'Can I jump in here?' and 'Just to add to that...' Start by making one comment per meeting.",
+      mid: "You're contributing. Next step from Module 4: volunteer to present something, and try softening disagreement with 'I see it a bit differently...'",
+      high: "You're confident in meetings. Great work. Module 4 takes this further with feedback and negotiation frameworks."
     },
     "social": {
-      low: "Social events are where real bonds form. Start small. Go to one event, stay for 30 minutes. You don't need to be the life of the party.",
-      mid: "You're showing up, which is half the battle. Try initiating a coffee catch-up with a colleague this week.",
-      high: "You're thriving socially at work. You're building the kind of relationships that make work feel like belonging."
+      low: "Social events are where real bonds form. Module 3 covers everything from break room chats to Friday drinks. Start small: go to one event, stay for 30 minutes.",
+      mid: "You're showing up, which is half the battle. Module 3 teaches 'shouting rounds' and how to exit gracefully: 'Better get back to it.'",
+      high: "You're thriving socially. You're building the kind of relationships Module 3 talks about, the ones that make work feel like belonging."
     },
     "feedback": {
-      low: "Feedback in Australia is often indirect. 'Maybe you could try...' usually means 'Please change this.' Learning to read between the lines is a superpower here.",
-      mid: "You're getting better at the feedback dance. Practice the 'sandwich' approach and remember, asking for feedback shows strength, not weakness.",
-      high: "You handle feedback like a pro. This skill sets you apart and builds deep trust with your team."
+      low: "Feedback in Australia is often indirect. Module 4 teaches the 4 steps: Listen, Thank, Ask questions, Take time. 'Thanks for letting me know' is your go-to.",
+      mid: "You're getting better at the feedback dance. Module 4's Feedback Sandwich (Positive, Issue, Solution, Support) will take you to the next level.",
+      high: "You handle feedback like a pro. Module 4's Ask Structure (Meeting, Request, Reasoning, Listen, Negotiate) can help you push for what you need."
     }
   }
   return advice[categoryId]?.[level] || ""

@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 export default function Goals({ goals, onUpdateGoals }) {
   const [vision, setVision] = useState(goals.belongingVision || '')
-  const [weeklyGoals, setWeeklyGoals] = useState(goals.weeklyGoals || ['', '', '', ''])
+  const [weeklyGoals, setWeeklyGoals] = useState(goals.weeklyGoals || ['', '', '', '', ''])
   const [saved, setSaved] = useState(false)
 
   const handleSave = () => {
@@ -23,17 +23,19 @@ export default function Goals({ goals, onUpdateGoals }) {
   ]
 
   const weekDesc = [
-    "Something small. A greeting, a phrase, a smile.",
-    "A conversation. A lunch. A shared moment.",
-    "Push your comfort zone. Lead something small.",
-    "Own it. This is your workplace too."
+    "First Days & Foundations. Say g'day, use the 3-Part Intro.",
+    "Everyday Conversations. Small talk, emails, meetings.",
+    "Social Situations. Lunches, drinks, building relationships.",
+    "Professional Conversations. Feedback, requests, difficult chats.",
+    "Slang, Humour & Identity. Own your voice. You belong."
   ]
 
   const placeholders = [
-    "e.g., Say good morning to everyone on my floor",
-    "e.g., Have lunch with a colleague I don't usually talk to",
-    "e.g., Make a joke in a meeting and see what happens",
-    "e.g., Organise a Friday coffee run for the team"
+    "e.g., Introduce myself using the 3-Part Intro to 3 new people",
+    "e.g., Use the Small Talk Formula in the break room every day",
+    "e.g., Go to Friday drinks and stay for at least 30 minutes",
+    "e.g., Give feedback using the Feedback Sandwich with a colleague",
+    "e.g., Use 5 slang terms naturally in one day"
   ]
 
   return (
@@ -82,7 +84,7 @@ export default function Goals({ goals, onUpdateGoals }) {
       <div>
         <p className="text-[0.65rem] uppercase tracking-[0.2em] text-text-secondary font-semibold mb-4 px-1">Weekly Goals</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {[1, 2, 3, 4].map((week, i) => (
+          {[1, 2, 3, 4, 5].map((week, i) => (
             <div key={week} className="card p-5 md:p-7 space-y-3" style={{ animation: `enter 0.5s cubic-bezier(0.16, 1, 0.3, 1) ${i * 0.08}s both` }}>
               <div className="flex items-center gap-3.5">
                 <div className="w-10 h-10 rounded-xl bg-primary-light flex items-center justify-center">

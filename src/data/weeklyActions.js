@@ -1,55 +1,67 @@
 export const weeklyActions = [
   {
     week: 1,
-    title: "Getting Started",
+    title: "First Days & Foundations",
     subtitle: "Small steps, big impact. Just say g'day.",
     actions: [
-      { id: "w1-1", text: "Say 'morning' to at least 3 colleagues when you arrive", tip: "A simple 'morning!' with a smile is all you need. No need for a full conversation." },
-      { id: "w1-2", text: "Use one Aussie phrase naturally in conversation", tip: "Try 'no worries' when someone thanks you, or 'how's it going?' as a greeting." },
-      { id: "w1-3", text: "Ask a colleague about their weekend", tip: "Keep it light: 'Do anything good on the weekend?' is the classic opener." },
-      { id: "w1-4", text: "Practice 'no worries' as your go-to response", tip: "Replace 'you're welcome' or 'it's okay' with 'no worries'. It feels natural fast." },
-      { id: "w1-5", text: "Compliment a colleague's work casually", tip: "Something simple like 'Nice work on that presentation' or 'That was a solid idea in the meeting.'" },
-      { id: "w1-6", text: "Listen for slang you don't understand and look it up", tip: "Write down any phrases that confuse you. This builds your Aussie vocabulary fast." },
+      { id: "w1-1", text: "Use the 3-Part Intro when meeting someone: name, role, what you'll be working on", tip: "Keep it brief: 'Hey, I'm [name]. I just started in [team]. I'll be working on [area].' That's all you need." },
+      { id: "w1-2", text: "Greet at least 3 colleagues with 'G'day' or 'Hey, how's it going?'", tip: "Don't overthink it. 'How's it going?' doesn't need a real answer. Just 'Yeah, good, you?' works perfectly." },
+      { id: "w1-3", text: "Use 'No worries' as your go-to response at least 3 times today", tip: "Replace 'you're welcome', 'it's okay', and 'no problem' with 'no worries'. It's the most versatile Aussie phrase." },
+      { id: "w1-4", text: "Sign off a message or conversation with 'Cheers' instead of 'Thank you'", tip: "'Cheers' is casual but professional. Perfect for emails, Slack, or ending a quick chat." },
+      { id: "w1-5", text: "Ask someone for help using 'Sorry, could you show me how to...?'", tip: "Asking for help is encouraged in Australian workplaces. It shows you're keen to learn, not that you're weak." },
+      { id: "w1-6", text: "If something goes wrong, try saying 'I'm still learning the ropes' with a smile", tip: "This phrase signals humility and self-awareness. Australians respect people who own their learning curve." },
     ]
   },
   {
     week: 2,
-    title: "Building Connections",
+    title: "Everyday Conversations",
     subtitle: "Time to join the conversation. You belong here.",
     actions: [
-      { id: "w2-1", text: "Join a lunch conversation (don't wait to be invited)", tip: "In Australia, sitting down with colleagues at lunch is normal. Just grab your food and join." },
-      { id: "w2-2", text: "Use 'no worries' naturally in a real work context", tip: "When someone apologises for being late to a meeting: 'No worries at all, we just got started.'" },
-      { id: "w2-3", text: "Ask a colleague for help with something small", tip: "Asking for help is seen as normal here, not weakness. Try 'Hey, could you give me a hand with this?'" },
-      { id: "w2-4", text: "Share what you did on the weekend when asked", tip: "Even 'Not much, just relaxed at home' is a perfectly good answer. The point is the connection." },
-      { id: "w2-5", text: "Try 'How's it going?' as a greeting instead of 'Hello'", tip: "This is the most common Australian greeting. You don't need a real answer, just 'Yeah, good, you?'" },
-      { id: "w2-6", text: "Bring something to share with the team", tip: "Biscuits, fruit, anything. The gesture matters more than what you bring." },
-      { id: "w2-7", text: "Make a light joke or playful comment in a conversation", tip: "Self-deprecating humour works great. 'I definitely need another coffee before I can think straight.'" },
+      { id: "w2-1", text: "Use the Small Talk Formula: Ask → Listen → Share briefly → Move on", tip: "Don't try to have a deep conversation. Small talk is light by design. Ask, listen, share one thing, then move on." },
+      { id: "w2-2", text: "Ask a colleague 'How was your weekend?' on Monday morning", tip: "This is the #1 Monday opener in Australian workplaces. Even 'Not much, pretty cruisy' is a perfect answer." },
+      { id: "w2-3", text: "Write an email using 'Hey [Name],' and sign off with 'Cheers,'", tip: "Australian emails are casual but professional. 'Hey' is standard, not rude. 'Cheers' is the go-to sign-off." },
+      { id: "w2-4", text: "Speak up in a meeting using 'Can I jump in here?' or 'Just to add to that...'", tip: "These phrases let you enter a conversation naturally without interrupting. Australians appreciate people who contribute." },
+      { id: "w2-5", text: "Use 'Let me know if you have any questions' in a follow-up email", tip: "This is the standard Australian way to close an email. It's helpful without being pushy." },
+      { id: "w2-6", text: "Disagree with someone using 'I see it a bit differently...' instead of 'I disagree'", tip: "Australians soften disagreement. This phrase lets you share your view without creating tension." },
     ]
   },
   {
     week: 3,
-    title: "Going Deeper",
-    subtitle: "You're finding your rhythm. Keep pushing your comfort zone.",
+    title: "Social Situations",
+    subtitle: "This is where real bonds form. You've got this.",
     actions: [
-      { id: "w3-1", text: "Share a personal story during small talk", tip: "Something from your background or culture. Australians are genuinely curious about different experiences." },
-      { id: "w3-2", text: "Use light humour in a group setting", tip: "A meeting or team chat. Even a small joke shows you're comfortable and engaged." },
-      { id: "w3-3", text: "Organise or join Friday drinks (or a coffee catch-up)", tip: "If your team does Friday drinks, go. If they don't, suggest a coffee run. The social bonding matters." },
-      { id: "w3-4", text: "Give someone a casual compliment on something non-work", tip: "'Nice shirt' or 'Love your mug' breaks the ice in a friendly, low-pressure way." },
-      { id: "w3-5", text: "Ask your manager a non-work question", tip: "Try 'Got any plans for the weekend?' This humanises the relationship." },
-      { id: "w3-6", text: "Volunteer for a team social activity or morning tea", tip: "Offering to help organise shows you're part of the team, not just doing a job." },
+      { id: "w3-1", text: "Join a lunch or break room conversation without waiting to be invited", tip: "In Australia, joining a group at lunch is totally normal. Just grab your food and sit down. 'Mind if I join you?' works." },
+      { id: "w3-2", text: "Offer to grab someone a coffee: 'I might grab a coffee, anyone want one?'", tip: "Coffee runs are a bonding ritual. Offering shows you're part of the team. Don't worry about getting orders wrong." },
+      { id: "w3-3", text: "Go to Friday drinks or suggest a coffee catch-up if your team doesn't do drinks", tip: "If your team does Friday drinks, go and stay for at least 30 minutes. If they don't, suggest a coffee run instead." },
+      { id: "w3-4", text: "Learn about 'shouting rounds' and offer to buy a round when it's your turn", tip: "Someone buys a round of drinks for the group. You buy next time. It evens out. Skipping your shout is a big no." },
+      { id: "w3-5", text: "Exit a conversation gracefully using 'Better get back to it' or 'Catch you later'", tip: "Australians don't do long goodbyes. These quick phrases are friendly and natural. No one will think you're rude." },
+      { id: "w3-6", text: "Ask a colleague 'How did your team go?' about sports (even if you don't follow)", tip: "'I don't really follow it, but...' is totally fine. Australians appreciate the effort to connect." },
     ]
   },
   {
     week: 4,
-    title: "Owning It",
+    title: "Professional Conversations",
+    subtitle: "Handle the hard stuff with confidence. You're ready.",
+    actions: [
+      { id: "w4-1", text: "Receive feedback using the 4 steps: Listen → Thank → Ask questions → Take time", tip: "'Thanks for letting me know' and 'Can you give me an example?' are your power phrases here." },
+      { id: "w4-2", text: "Give feedback using the Feedback Sandwich: Positive → Issue → Solution → Support", tip: "Start genuine, be specific about the issue, offer a solution, end supportively. 'Can I give you some feedback on something?'" },
+      { id: "w4-3", text: "Set up a request using 'Can I grab some time to chat about something?'", tip: "This is the Australian way to flag something important without ambushing someone. It shows respect for their time." },
+      { id: "w4-4", text: "Try the Ask Structure for something you need: Meeting → Request → Reasoning → Listen → Negotiate", tip: "Whether it's leave, a raise, or resources, this 5-step framework keeps you calm and professional." },
+      { id: "w4-5", text: "Address an issue privately using 'I've noticed that... It's making it hard for me to...'", tip: "Find a private moment, state the issue calmly, ask 'What's your take?', then find a solution together." },
+      { id: "w4-6", text: "Ask your manager 'Is there anything I could do better next time?'", tip: "Proactively asking for feedback shows confidence and growth mindset. Australians respect this." },
+    ]
+  },
+  {
+    week: 5,
+    title: "Slang, Humour & Identity",
     subtitle: "You're not fitting in. You belong. There's a difference.",
     actions: [
-      { id: "w4-1", text: "Lead a meeting segment or present an idea confidently", tip: "Even a 2-minute update counts. The goal is speaking up with confidence, not perfection." },
-      { id: "w4-2", text: "Give feedback using the Australian indirect style", tip: "Instead of 'This is wrong', try 'Have you thought about doing it this way?' Softening is key." },
-      { id: "w4-3", text: "Have a non-work chat with your manager for 5+ minutes", tip: "Sports, weekend plans, food, travel. Building rapport with your boss is normal and expected here." },
-      { id: "w4-4", text: "Suggest a team lunch, coffee run, or social outing", tip: "Taking initiative on social stuff signals confidence and belonging." },
-      { id: "w4-5", text: "Use self-deprecating humour naturally", tip: "Australians love people who don't take themselves too seriously. 'I'm hopeless before my morning coffee' works." },
-      { id: "w4-6", text: "Start a conversation with someone from another team", tip: "Cross-team connections open doors. Just introduce yourself and ask what they're working on." },
+      { id: "w5-1", text: "Use 3 slang terms naturally: 'arvo' (afternoon), 'flat out' (busy), 'knock off' (finish work)", tip: "'I'm flat out this arvo but I'll knock off at 5.' One sentence, three slang terms. That's how Australians talk." },
+      { id: "w5-2", text: "Respond to friendly teasing with 'Yeah, fair enough' or 'Ha, you got me'", tip: "When someone takes the piss, they're showing affection. Laughing along builds connection. Don't take it personally." },
+      { id: "w5-3", text: "Try self-deprecating humour: 'I'm hopeless before my morning coffee'", tip: "Australians love people who don't take themselves too seriously. A small joke at your own expense goes a long way." },
+      { id: "w5-4", text: "Spot sarcasm in action: when someone says 'Living the dream', know they mean the opposite", tip: "Aussie sarcasm is constant and friendly. 'Oh great, another meeting' means they don't want one. It's a bonding tool." },
+      { id: "w5-5", text: "Use 'reckon' instead of 'think' at least once: 'I reckon we should...'", tip: "'Reckon' is quintessentially Australian. Using it naturally shows you're tuning into the local rhythm of speech." },
+      { id: "w5-6", text: "Reflect on the Aussie workplace values: Be genuine, be humble, be fair, have a go", tip: "These four principles matter more than perfect English. Australians care about who you are, not how you sound." },
     ]
   }
 ]

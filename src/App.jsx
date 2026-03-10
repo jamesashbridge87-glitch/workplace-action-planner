@@ -21,7 +21,7 @@ function App() {
   const [completedActions, setCompletedActions] = useLocalStorage('yau-actions', {})
   const [auditScores, setAuditScores] = useLocalStorage('yau-audit', {})
   const [journalEntries, setJournalEntries] = useLocalStorage('yau-journal', [])
-  const [goals, setGoals] = useLocalStorage('yau-goals', { belongingVision: '', weeklyGoals: ['', '', '', ''] })
+  const [goals, setGoals] = useLocalStorage('yau-goals', { belongingVision: '', weeklyGoals: ['', '', '', '', ''] })
 
   const totalActions = weeklyActions.reduce((sum, w) => sum + w.actions.length, 0)
   const completedCount = Object.values(completedActions).filter(Boolean).length
